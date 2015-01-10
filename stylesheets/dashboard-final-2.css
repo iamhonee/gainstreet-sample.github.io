@@ -1,0 +1,207 @@
+/* line 6, ../sass/dashboard-final-2.sass */
+small.small-text {
+  color: #428bca;
+  font-size: 11px;
+}
+
+/* line 10, ../sass/dashboard-final-2.sass */
+body {
+  background: white;
+}
+
+/* line 13, ../sass/dashboard-final-2.sass */
+.navbar-brand {
+  padding: 14px 20px;
+}
+/* line 15, ../sass/dashboard-final-2.sass */
+.navbar-brand img {
+  width: auto;
+  height: 21px;
+}
+
+/* line 19, ../sass/dashboard-final-2.sass */
+.jumbotron.logo-wrapper {
+  background: white;
+  text-align: center;
+  padding: 20px;
+}
+/* line 23, ../sass/dashboard-final-2.sass */
+.jumbotron.logo-wrapper img {
+  text-align: center;
+}
+
+/* line 26, ../sass/dashboard-final-2.sass */
+#dashboard-container {
+  margin-top: 50px;
+}
+/* line 29, ../sass/dashboard-final-2.sass */
+#dashboard-container .dashboard-nav ul li {
+  font-size: 16px;
+}
+/* line 31, ../sass/dashboard-final-2.sass */
+#dashboard-container .dashboard-nav ul#dashboard-tab {
+  background: #333333;
+  width: 100%;
+}
+/* line 34, ../sass/dashboard-final-2.sass */
+#dashboard-container .dashboard-nav ul#dashboard-tab li {
+  width: 25%;
+}
+/* line 36, ../sass/dashboard-final-2.sass */
+#dashboard-container .dashboard-nav ul#dashboard-tab li a {
+  background: #c25635;
+  color: #eeeeee;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+  text-align: center;
+  border-color: #373738;
+  border-style: solid;
+  border-width: 0px 0px 3px 1px !important;
+  border-radius: 0;
+}
+/* line 47, ../sass/dashboard-final-2.sass */
+#dashboard-container .dashboard-nav ul#dashboard-tab li a i {
+  color: white;
+  font-size: 20px;
+}
+/* line 51, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav-tabs {
+  border-bottom: 0;
+}
+/* line 53, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav-tabs > li {
+  margin-bottom: 0px;
+}
+/* line 55, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav-tabs > li.active > a {
+  background-color: #333333 !important;
+  color: white !important;
+}
+/* line 58, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav > li > a:hover {
+  background-color: #eff1f3;
+  border: 0;
+}
+/* line 61, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav-tabs > li > a:hover {
+  color: white;
+  background-color: #d43f3f;
+  border-color: none !important;
+}
+/* line 65, ../sass/dashboard-final-2.sass */
+#dashboard-container .nav-tabs > li > a {
+  border: none;
+}
+
+/* line 68, ../sass/dashboard-final-2.sass */
+.navbar {
+  background-color: #323d51;
+}
+
+/* line 70, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content {
+  margin-top: 0px;
+}
+/* line 73, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .achievement-list p em {
+  color: #afafaf;
+  font-size: 12px;
+}
+/* line 76, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header {
+  background: #eff1f3;
+  padding: 40px 0;
+}
+/* line 79, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header h1, #dashboard-tab-content .dashboard-tab-content-header p {
+  color: #333333;
+}
+/* line 81, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header h1 {
+  font-size: 24px;
+}
+/* line 83, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header h1.points {
+  font-size: 52px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+/* line 87, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header h1.points em {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 91, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header img {
+  height: 137px;
+  width: 150px;
+}
+/* line 94, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-header .progress {
+  margin-bottom: 10px;
+}
+/* line 97, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .thumbnail {
+  border: 1px solid #c2c7d0 !important;
+}
+/* line 99, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details p {
+  margin-top: 30px;
+}
+/* line 101, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-header h1 {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+/* line 106, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail img {
+  width: 65%;
+  margin-top: 15px;
+}
+/* line 109, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail .caption {
+  margin-bottom: -10px;
+  margin-top: -15px;
+  min-height: 93px;
+  padding: 0px 10px;
+  text-align: center;
+}
+/* line 115, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail .caption ul li.check-img img {
+  margin-top: 0px;
+}
+/* line 117, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail .caption h3 {
+  font-size: 12px;
+}
+/* line 119, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail .caption h4 {
+  font-weight: 10px;
+}
+/* line 121, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail.unlocked {
+  background: #b2f8c6;
+  border: none;
+}
+/* line 124, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .page-badges .thumbnail.locked {
+  background: #cccccc;
+  opacity: 0.3;
+  border: none;
+}
+/* line 128, ../sass/dashboard-final-2.sass */
+#dashboard-tab-content .dashboard-tab-content-details .banner-spread {
+  background: #eff1f3;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 50px;
+}
+
+/* line 138, ../sass/dashboard-final-2.sass */
+#dashboard-edit-profile form {
+  padding-top: 100px;
+}
